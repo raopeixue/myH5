@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
 }
+bady{
+    width: 100%;
+}
 #warp{
     width: 1080px;
     margin: 0 auto;
@@ -36,6 +39,9 @@ nav  ul li a {
     font-size: small;
     float: left;
     padding-left: 30px;
+}
+nav  ul li a:hover{
+    color: darkgray;
 }
 .headTitle {
     font-size: 5vw;
@@ -138,7 +144,7 @@ main:after{
     column-width: 504px;
     margin-top: 30px;
     width: 1080px;
-    padding-bottom: 300px;
+    padding-bottom: 20px;
 
 
 }
@@ -197,18 +203,122 @@ main:after{
 .top button{
     border: 1px solid #000000;
     width:200px;
-    height: 30px;
+    height: 50px;
 }
 .top button a{
     display: inline-block;
     font-weight: bold;
     width:200px;
     height: 30px;
-    line-height: 30px
-;
+    line-height: 30px;
 
 }
 .top button a:hover{
     color: darkgrey;
 }
+
+
+
+
+.footer{
+    background-image: url("http://dghlqj4az0ttb.cloudfront.net/footerBacker.png");
+    background-size: 100%;
+    width: 100%;
+    padding-bottom: 50px;
+
+}
+.footer:after{
+    content: '';
+    display: block;
+    clear: both;
+
+}
+.footerlift{
+    width: 55%;
+    float: left;
+    text-align: center;
+
+}
+.footer .footerlogo{
+    background: url("../img/foot.png") no-repeat;
+    background-size:100%;
+    width:81px;
+    height: 81px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    margin-top: 30px;
+
+
+}
+.footerlift p{
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration:underline;
+}
+.lifttext{
+    padding-top: 160px;
+}
+
+
+.footerright{
+    color: #ffffff;
+   float:right;
+    width: 45%;
+    text-align: left;
+    margin-top: 30px;
+
+}.footerright .righttext{
+    font-size: 8px;
+ }
+
+.footerright .righttext h1{
+    font-size: 130px;
+    line-height: 100px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.footerright .righttext h2{
+    font-size: 18px;
+    font-weight: inherit;
+    margin-bottom: 40px;
+}
+.footerright .righttext h3{
+    font-size: 18px;
+    font-weight: bolder;
+    text-decoration:underline;
+    margin-bottom: 50px;
+}
+
+
+
+.footerimg >*{
+    float: left;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+
+}
+
+.footerimg .img1{
+    background: url("../img/instagram.png")  no-repeat;
+    background-size: cover;
+
+}
+.footerimg .img2{
+
+    background: url("../img/facebook.png") no-repeat;
+    background-size: cover;
+    margin-left: 30px;
+
+}
+
+.footerimg .img3{
+    background: url("../img/twitter.png") no-repeat;
+    background-size: cover;
+    margin-left: 30px;
+
+
+}
+
+
 
